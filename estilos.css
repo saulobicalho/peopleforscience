@@ -13,3 +13,14 @@ header {
     background-repeat: no-repeat;
 
 }
+
+footer {
+    background-color: #333;
+    color:#FFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer address:last-child {
+ margin-bottom: 0;
+}
