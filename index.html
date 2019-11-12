@@ -9,7 +9,109 @@
     <title>Home</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <header>
+          <nav class="navbar navbar-default">
+              <div class="container">
+
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                      data-target="#navbar-peopleforscience" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+
+                      <a class="navbar-brand" href="#">People For Science</a>
+                  </div>
+
+                  <div class="collapse navbar-collapse" id="navbar-peopleforscience">
+                      <ul class="nav navbar-nav">
+                          <li><a href="#sobre-nos">Sobre Nós</a></li>
+                          <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                          <li><a href="#contato">Contato</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          <div class="container peopleforscience-bannerWrapper">
+            <div class="peopleforscience-banner">
+              <h1>People For Sciences</h1>
+              <p>Disponibilização de dados sociais em plataformas digitais</p>
+              <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+            </div>
+          </div>
+      </header>
+
+
+<!-- container para secoes video e contato-->
+      <div class="container">
+        <div class="row">
+
+<!-- secao video Institucional-->
+          <section id="videos" class="col-sm-6">
+            <h2>Vídeo Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.facebook.com/plugins/video.php?href=http
+              s%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fvideos%2F224346
+              284814660%2F&show_text=0&width=560" width="560" height="315"
+              style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+               allowTransparency="true" allowFullScreen="true"></iframe>
+            </div>
+          </section>
+
+<!-- secao contato-->
+          <section id="contato" class="col-sm-6">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco</p>
+
+            <form>
+              <div class="form-group">
+                <label for="contato-name"> Nome:</label>
+                <input class="form-control" id="contato-name" type="text"
+                placeholder="Seu nome">
+              </div>
+
+              <div class="form-group">
+                <label for="contato-email">Email</label>
+                <div class="input-group">
+                  <div class="input-group-addon">@ </div>
+                    <input type="email" class="form-control" id="contato-email"
+                    placeholder="Seu e-mail">
+                  </div>
+                </div>
+
+                <div class="grupo-radio">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="tipo-pessoa"
+                      checked> Pessoa Física
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="tipo-pessoa"
+                      checked> Pessoa Jurídica
+                    </label>
+                  </div>
+                </div>
+
+                <select class="contato-select form-control">
+                  <option disabled selected>Tipo de Situação</option>
+                  <option>Consultoria</option>
+                  <option>Estudo dirigido</option>
+                  <option>Palestra</option>
+                </select>
+
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </form>
+            </section>
+            <!-- fim secao contato-->
+
+          </div>
+        </div>
+
+<!-- fim container para secoes video e contato-->
 
     <footer>
       <address>
