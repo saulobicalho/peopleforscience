@@ -1,3 +1,11 @@
+.comece{
+  background-color: purple;
+}
+
+p{
+  text-align: justify;
+}
+
 html,
 body {
     height: 100%;
@@ -13,7 +21,7 @@ header {
 
 }
 
-.peopleforscience-banner {
+.peopleforscience-banner, .comece-banner {
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20 px;
@@ -27,12 +35,12 @@ header {
 }
 
 @media(min-width:992px) {
-    .peopleforscience-banner {
+    .peopleforscience-banner, .comece-banner {
     left: 0;
     transform: translate(0, -80%);
     width: 50%;
     }
-    .peopleforscience-bannerWrapper{
+    .peopleforscience-bannerWrapper, .comece-bannerWrapper{
       position: relative;
       height: 100%;
     }
