@@ -11,10 +11,35 @@
   <body>
     <div class="comece">
       <div class="container comece-bannerWrapper">
+        <a class="navbar-brand" href="index.html">People For Science</a>
+        <h3>Primeiramente, vamos preparar um esboço</h3>
+        <p>Não se preocupe, será possível alterar as informações futuramente</p>
         <div class="comece-banner">
-          <h1>Primeiramente, vamos preparar um esboço</h1>
-          <p>Não se preocupe, será possível alterar as informações futuramente</p>
-          <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+          <form>
+            <div class="form-group">
+              <p>Quero divulgar um projeto chamado</p>
+              <label for="projeto-name"></label>
+              <input class="form-control" id="projeto-name" type="text"
+              placeholder="Nome do projeto">
+            </div>
+
+              <p>na categoria</p>
+              <select class=" form-control">
+
+                <option disabled selected>Escolha uma categoria</option>
+                <option>Ciências Biológicas e da Saúde</option>
+                <option>Ciências Exatas e da Terra</option>
+                <option>Ciências Sociais</option>
+                <option>Ciências Sociais Aplicadas</option>
+                <option>Engenharias</option>
+                <option>Linguística, Letras e Artes</option>
+
+
+              </select>
+
+              <button type="button" class="btn btn-primary" onclick="location.href = 'meuprojeto.html';">Começar o esboço</button>
+            </form>
+
         </div>
       </div>
 
