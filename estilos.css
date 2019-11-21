@@ -124,13 +124,44 @@ header{
 
 }
 
-.peopleforscience-banner, .comece-banner{
+.exploreHeader{
+  background-color: #5E3DA0;
+  background-size: cover;
+  background-position:top center;
+  height: 30%;
+  position: relative;
+  background-repeat: no-repeat;
+  color: #FFF;
+  text-align: center;
+}
+
+.explore-select{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  width: 20%;
+  color: #FFF;
+}
+
+
+.peopleforscience-banner{
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20 px;
     width: 80%;
     border-radius: 8px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+.comece-banner{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20 px;
+    width: 80%;
+    border-radius: 8px;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -150,7 +181,11 @@ header{
     transition: 0.3s;
 }
 
-
+/* estilo dos cartoes em Explore*/
+.card-info{
+  display: inline;
+  padding-right: 10%;
+}
 
 @media(min-width:992px) {
     .peopleforscience-banner, .comece-banner, .login-banner,.cadastro-banner {
