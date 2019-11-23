@@ -36,12 +36,250 @@
     <header>
           <div class="container peopleforscience-bannerWrapper">
             <div class="peopleforscience-banner">
-              <h1>People For Science</h1>
-              <p>Sistema de crowdfunding para financiamento de projetos científicos</p>
+              <h1 class="display-4">People For Science</h1>
+              <p class="lead">Sistema de crowdfunding para financiamento de projetos científicos</p>
               <button class="btn btn-primary btn-lg" onclick="location.href = '#contato';">Contate-nos agora</button>
             </div>
           </div>
       </header>
+
+      <div id="main">
+        <h2 id="subtitulo">Projetos em destaque</h2>
+        <!--card deck-->
+        <div class="card-deck">
+
+          <div class="card">
+            <a href="projetoa.html"><img src="img/a.jpg" class="card-img-top"
+              alt="..." ></a>
+            <div class="card-body">
+              <a href="projetoa.html"><h5 class="card-title">Projeto A</h5></a>
+              <small  class="form-text text-muted">por João Silva</small>
+              <p class="card-text">Descrição do Projeto A</p>
+                <small  class="form-text text-muted">Belo Horizonte</small>
+                <div class="progress">
+                  <div class="progress-bar w-75" role="progressbar"
+                  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <!-- informacoes em 3 colunas-->
+                <div class="container">
+                  <div class="card-info">
+                  75%
+                  </div>
+                  <div class="card-info"  id="demo1">
+                    <script>
+                      exibeValor();
+                    </script>
+                  </div>
+                  <div class="card-info">
+                    Iniciado há 85 dias
+                  </div>
+                </div>
+                <!-- fim informacoes em 3 colunas-->
+            </div>
+
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+
+          <div class="card" data-toggle="tooltip" data-placement="top" title="
+          Para este MVP apenas o projeto A pode ser acessado. Agradecemos a compreensão.">
+            <img src="img/b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projeto B</h5>
+              <small  class="form-text text-muted">por José Soares</small>
+              <p class="card-text">Descrição do Projeto B</p>
+                <small  class="form-text text-muted">Rio de Janeiro</small>
+                <div class="progress">
+                  <div class="progress-bar w-75" role="progressbar"
+                  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <!-- informacoes em 3 colunas-->
+                <div class="container">
+                  <div class="card-info">
+                  75%
+                  </div>
+                  <div class="card-info">
+                    R$10.432,00 levantados
+                  </div>
+                  <div class="card-info">
+                    Iniciado há 12 dias
+                  </div>
+                </div>
+                <!-- fim informacoes em 3 colunas-->
+            </div>
+
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+
+          <div class="card" data-toggle="tooltip" data-placement="top" title="
+          Para este MVP apenas o projeto A pode ser acessado. Agradecemos a compreensão.">
+            <img src="img/c.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projeto C</h5>
+              <small  class="form-text text-muted">por Ana Santos</small>
+              <p class="card-text">Descrição do Projeto C</p>
+                <small  class="form-text text-muted">São Paulo</small>
+                <div class="progress">
+                  <div class="progress-bar w-75" role="progressbar"
+                  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <!-- informacoes em 3 colunas-->
+                <div class="container">
+                  <div class="card-info">
+                  75%
+                  </div>
+                  <div class="card-info">
+                    R$7.832,00 levantados
+                  </div>
+                  <div class="card-info">
+                    Iniciado há 25 dias
+                  </div>
+                </div>
+                <!-- fim informacoes em 3 colunas-->
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+<!--fim do card deck-->
+
+<div class="jumbotron jumbotron-fluid logo">
+  <div class="container">
+    <h1 class="display-4">Junte-se a nós!</h1>
+    <div class="left">
+      <img src="img/logo_texto.jpg" alt="">
+    </div>
+    <div class="right">
+      <p class="lead">Compartilhe conosco sua ideia ou projeto. É muito simples!</p>
+      <button class="btn btn-success btn" onclick="location.href = 'comece.html';">Começar</button>
+    </div>
+  </div>
+</div>
+
+        <h2 id="subtitulo">Sobre nós</h2>
+        <p class="lead"><br><br>Somos uma iniciativa da Fundep - Fundação de Desenvolvimento da Pesquisa -,
+          que oferece financiamento coletivo para projetos de pesquisa e inovação.<br><br><br> </p>
+        <h3 id="subsubtitulo">Nossa Equipe</h3>
+        <br><br>
+        <!--inicio do card deck-->
+        <div class="card-columns">
+
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p1.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Dilian Caiafa</h5>
+            </div>
+          </div>
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p2.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Juliano Alves</h5>
+            </div>
+          </div>
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p21.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Melissa Araújo</h5>
+            </div>
+          </div>
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p3.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Saulo Bicalho</h5>
+            </div>
+          </div>
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p5.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Thaís Simões</h5>
+            </div>
+          </div>
+          <div class="card" id="card-avatar">
+            <img id="avatar" src="img/p4.jpg" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Verônica Rosário</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--fim main-->
+
+      <div class="carrossel">
+        <div class="container">
+
+          <div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fphotos%2Fa.224292461486709%2F281908692391752%2F%3Ftype%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fphotos%2Fa.224292461486709%2F281742125741742%2F%3Ftype%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fphotos%2Fa.224292461486709%2F280071412575480%2F%3Ftype%3D3&width=500" width="500" height="626" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fposts%2F337711550144799&width=500" width="500" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fphotos%2Fa.337711530144801%2F337711570144797%2F%3Ftype%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+        </div>
+      </div>
+
+
+
 
 
 <!-- container para secoes video e contato-->
@@ -50,7 +288,7 @@
 
 <!-- secao video Institucional-->
           <section id="videos" class="col-sm-6">
-            <h2>Vídeo Institucional</h2>
+            <h2 id="subtitulo">Vídeo Institucional</h2>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeopleforsciencebr%2Fvideos%2F224346284814660%2F&show_text=0&width=560" width="560" height="315"
               style="border:none;overflow:hidden" scrolling="no" frameborder="0"
@@ -60,7 +298,7 @@
 
 <!-- secao contato-->
           <section id="contato" class="col-sm-6">
-            <h2>Contato</h2>
+            <h2 id="subtitulo">Contato</h2>
             <p>Entre em contato conosco</p>
 
             <form>
@@ -134,14 +372,6 @@
                   </div>
                 </div>
                 <!--Fim Modal -->
-
-
-
-
-
-
-
-
 
               </form>
             </section>

@@ -1,3 +1,43 @@
+/*estilo do secao sobre nos--------------------------------*/
+#avatar{
+  border-radius: 100px;
+  width: 100px;
+}
+
+#card-avatar{
+  border: none;
+  font: 20px Proximanova, sans-serif;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
+}
+
+.logo{
+  color:#FFF;
+  background-image: url(img/logo.png);
+  background-size: cover;
+  text-align: right;
+}
+
+.right{
+  position: relative; right 0px;
+  margin-left: 50%;
+}
+
+.carrossel{
+  color:#FFF;
+  background-image: url(img/logo.png);
+  background-size: cover;  
+}
+
+/*fim estilo do secao sobre nos--------------------------------*/
+
 
 /*estilo do dahboard em meuprojeto.html--------------------------------*/
 /* The sidebar menu */
@@ -92,7 +132,13 @@
   color: black;
 }
 
+#subtitulo{
+  font: 34px sans-serif;
+}
 
+#subsubtitulo{
+  font: 28px  sans-serif;
+}
 
 p{
   text-align: justify;
@@ -101,6 +147,10 @@ p{
 html,
 body {
     height: 100%;
+}
+
+*{
+  font:"Arial";
 }
 
 header{
